@@ -259,9 +259,9 @@ class LinkedInLogin {
 	public function request( $type="GET" )
 	{
 		$params2 = array(
-			"grant_type"    => "authorization_code",
-			"client_id"     => "865qz6kfz9mql7",
-			"client_secret" => "f8ahWMI186DPux1U",
+			"grant_type"    => "",
+			"client_id"     => "",
+			"client_secret" => "",
 			"redirect_uri"  => "http://www.duopod.net/jobapp/candidate-dashboard-2",
 			"code"          => $_REQUEST['code']
 		);
